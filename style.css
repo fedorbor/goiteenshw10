@@ -144,6 +144,9 @@ justify-content: center;
 .oc{
     display: flex;
 }
+.ocl{
+    display: flex;
+}
 .oci{
     
     padding: 15px;
@@ -201,5 +204,35 @@ text-align: center;
     height: 24px;
     background-size: contain;
   }
+  .iconc{
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+   
+}
+
+.linkic{
+    width: 44px;
+    height: 44px;
+display:inline-flex ;
+outline: 1px solid black;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+background-color: #fff;
+color: #AFB1B8;
+
+}
+.linkic:hover ,.link:focus{
+    background-color: #2196F3;
+    color: #fff;
+}
+.iconlist{
+    display:flex;
+    list-style-type: none;
+}
+.iconlitem{
+    padding-right: 10px;
+}
 
 
